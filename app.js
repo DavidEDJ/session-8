@@ -1,42 +1,47 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "David",
+    lastName: "Pauget",
+    description: "Je suis étudiant en  journalisme à l'EDJ Sciences Po, en master écriture et numérique, et je travaille en alternance à RFI.",
+    photo: "Dave.png",
+    twitter: "davidpauget",
+    github: "DavidEDJ",
+    mail: "david.pauget@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "2018",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      name: "RFI",
+      title: "Journaliste multimédia",
+      description: "Journaliste à la rédaction Nouveaux médias de RFI.",
+      logo: "rfi.png"
     }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Été 2018",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      name: "Les Echos",
+      title: "Journaliste",
+      description: "Journaliste à la rubrique Services",
+      logo: "echos.png"
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
+      dateBegin: "décembre 2017",
+      dateEnd: "janvier 2018",
+      name: "Le Bien Public",
       title: "Stagiaire et correspondant de presse",
-      description: false
+      description: "Journaliste pour les pages Dijon",
+      logo: "bp.png"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2017",
+      dateEnd: "2019",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "EDJ Sciences Po",
+      logo: "sp.png"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2013",
+      dateEnd: "2017",
+      name: "Sciences Po Lyon",
+      university: "Sciences Po Lyon",
+      logo: "spl.png"
     }],
     languages: ["Anglais"],
     skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
